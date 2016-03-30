@@ -5,10 +5,15 @@
  */
 package logic;
 
+import java.util.Date;
+
 /**
  *
  * @author Estudiante
  */
 public class Audit {
-    
+    String idprocess;
+    int operation;
+    Date dateAudit;
+    String username;
 }
